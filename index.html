@@ -1,0 +1,151 @@
+<!--
+   _____ _             _            _       ____                 
+  / ____| |           | |          | |     |  _ \                
+ | (___ | |_ _   _  __| | ___ _ __ | |_ ___| |_) | __ _ ___  ___ 
+  \___ \| __| | | |/ _` |/ _ \ '_ \| __/ __|  _ < / _` / __|/ _ \
+  ____) | |_| |_| | (_| |  __/ | | | |_\__ \ |_) | (_| \__ \  __/
+ |_____/ \__|\__,_|\__,_|\___|_| |_|\__|___/____/ \__,_|___/\___|
+
+ StudentsBase is HTML page providing expolits/code for students.
+
+ StudentsBase educational purposes only. We're not responsible to
+ any damge occured using expolits/codes on this site. These expol
+ its/code coded for using in Google Chrome.
+                                                                 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudentsBase</title>
+  <style>
+    :root {
+      --background-color: #333;
+      --text-color: #fff;
+      --header-background: #444;
+      --section-background: #555;
+      --footer-background: #444;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    header {
+      background-color: var(--header-background);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      border-radius: 0 0 20px 20px;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px;
+      background-color: var(--section-background);
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: var(--footer-background);
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      border-radius: 20px 20px 0 0;
+    }
+
+    /* Light mode styles */
+    body.light-mode {
+      --background-color: #f0f0f0;
+      --text-color: #000;
+      --header-background: #3498db;
+      --section-background: #fff;
+      --footer-background: #3498db;
+    }
+
+    a {
+      color: var(--text-color); /* Fix link color */
+    }
+
+    /* Button styles */
+    .toggle-button {
+      background-color: var(--header-background);
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+    }
+
+    .toggle-button:hover {
+      background-color: #2c3e50; /* Change color on hover */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>StudentsBase</h1>
+  </header>
+
+  <section>
+    <h2>Welcome to StudentsBase!</h2>
+    <p>StudentsBase provides exploits/codes for students. We also offer tutorials, unblocked games and more!</p>
+    <p>
+    *[WARNING] DO NOT UPDATE YOU GOOGLE CHROME/CHROME OS TO LASTEST VERSION, LASTEST VERSION PATCHES MANY FEATURES ON THIS SITE*
+    </p>
+  </section>
+
+  <section>
+    <h2><a href="contents/eaglercraft/index.html">Minecraft (EaglerCraft)</a></h2>
+    <p>Play Minecraft with your school chromebook without being seen by GoGuardian!</p>
+  </section>
+
+  <section>
+    <h2><a href="contents/visual-effects/index.html  ">Change Background</a></h2>
+    <p>Change Background to any image (supports .gif but don't supports video files) (These Features Does Not Work at Some Sites). This just changes visual, these are 100% not hacking and it will be back if you reload the page</p>
+  </section>
+  <section>
+    <h2><a href="contents/visual-effects/index.html  ">Make Text Editable</a></h2>
+    <p>Make it able to edit text on site. (These Features Does Not Work at Some Sites). This just changes visual, these are 100% not hacking and it will be back if you reload the page</p>
+  </section>
+  <section>
+    <h2><a href="contents/anti-gogurdian/index.txt">Disable GoGuardian</a></h2>
+    <p>You will never get seen by GoGurdian! (Some School Network has Cisco, which blocks sites so you might cant access to any sites) (You Have to Do It Again If you Crash the Google Chrome or Restart the Computer)</p>
+  </section>
+  <section>
+    <h2><a href="contents/prodigy-hacks/index.html">Prodigy Hacks!</a></h2>
+    <p>Scripts for Prodigy to Hack. Edit Level, Free Membership, and more! (Some might not work, and im not responsible if you get banned)</p>
+  </section>
+
+  <button class="toggle-button" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+  <script>
+    document.body.classList.add("dark-mode");
+
+    function toggleDarkMode() {
+      document.body.classList.toggle("light-mode");
+      updateButtonText();
+    }
+
+    function updateButtonText() {
+      const button = document.querySelector(".toggle-button");
+      const isLightMode = document.body.classList.contains("light-mode");
+      button.textContent = isLightMode ? "Change to Dark Mode" : "Change to Light Mode";
+    }
+
+    // Update button text on page load
+    updateButtonText();
+  </script>
+
+</body>
+</html>
