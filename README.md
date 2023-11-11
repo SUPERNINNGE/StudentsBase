@@ -3,5 +3,4 @@
 
  StudentsBase educational purposes only. We're not responsible to
  any damge occured using expolits/codes on this site. These expol
- its/code coded for using in Google Chrome. This project still on
- development, check out our github! 
+ its/codes are coded for using in Google Chrome.
